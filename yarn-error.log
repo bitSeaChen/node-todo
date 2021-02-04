@@ -1,0 +1,43 @@
+Arguments:
+  D:\software\nodejs\node.exe D:\software\Yarn\bin\yarn.js add commonder
+
+PATH:
+  D:\software\Git\mingw64\bin;D:\software\Git\usr\bin;C:\Users\bitSeaChan\bin;C:\Program Files\Common Files\Oracle\Java\javapath;D:\software\python27;D:\software\java\jdk1.8.0_251\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin;C:\Program Files\Common Files\Intel\WirelessCommon;D:\software\Git\cmd;D:\software\androidSdk\platform-tools;D:\software\androidSdk\emulator;D:\software\androidSdk\tools;D:\software\androidSdk\tools\bin;D:\software\nvm;D:\software\nodejs;D:\software\nvm;D:\software\Yarn\bin;D:\software\mingw64\bin;C:\Program Files (x86)\Common Files\Thunder Network\KanKan\Codecs;C:\Program Files\PostgreSQL\13\bin;C:\Program Files\Java\jdk-11.0.9\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;D:\software\ffmpeg-n4.3.1-30-g666d2fc6e2-win64-gpl-4.3\bin;C:\Users\bitSeaChan\Desktop\youhaosuda\php-7.3.26-nts-Win32-VC15-x64;D:\software\haskell\bin;C:\Users\bitSeaChan\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Intel\WiFi\bin;C:\Program Files\Common Files\Intel\WirelessCommon;D:\software\Microsoft VS Code\bin;C:\Program Files\JetBrains\WebStorm 2020.3.2\bin;D:\software\IntelliJ IDEA Community Edition 2020.1.2\bin;D:\software\nvm;D:\software\nodejs;C:\Users\bitSeaChan\AppData\Local\Yarn\bin
+
+Yarn version:
+  1.22.5
+
+Node version:
+  14.9.0
+
+Platform:
+  win32 x64
+
+Trace:
+  Error: https://registry.npm.taobao.org/commonder: Not found
+      at Request.params.callback [as _callback] (D:\software\Yarn\lib\cli.js:66097:18)
+      at Request.self.callback (D:\software\Yarn\lib\cli.js:140749:22)
+      at Request.emit (events.js:314:20)
+      at Request.<anonymous> (D:\software\Yarn\lib\cli.js:141721:10)
+      at Request.emit (events.js:314:20)
+      at IncomingMessage.<anonymous> (D:\software\Yarn\lib\cli.js:141643:12)
+      at Object.onceWrapper (events.js:420:28)
+      at IncomingMessage.emit (events.js:326:22)
+      at endReadableNT (_stream_readable.js:1244:12)
+      at processTicksAndRejections (internal/process/task_queues.js:80:21)
+
+npm manifest:
+  {
+    "name": "node-todo",
+    "version": "0.0.1",
+    "description": "a todo by node",
+    "main": "cli.js",
+    "author": "bitSeaChan",
+    "license": "MIT"
+  }
+
+yarn manifest:
+  No manifest
+
+Lockfile:
+  No lockfile
