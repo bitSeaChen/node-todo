@@ -7,7 +7,7 @@ const dbPath = path.join(home, ".todo");
 const db = {
 	read(read = dbPath) {
 		return new Promise((resolve, reject) => {
-			fs.readFile(dbPath, {flag: "r+"}, (error, data) => {
+			fs.readFile(read, {flag: "r+"}, (error, data) => {
 				if (error) {
 					return reject(error);
 				}
@@ -21,10 +21,10 @@ const db = {
 			});
 		});
 	},
-	write(list) {
+	write(list, path = dbPath) {
 		return new Promise((resolve, reject) => {
 			const str = JSON.stringify(list);
-			fs.writeFile(dbPath, str, (error) => {
+			fs.writeFile(path, str, (error) => {
 				if (error) {
 					return reject({result: false, msg: error});
 				}

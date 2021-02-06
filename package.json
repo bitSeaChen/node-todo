@@ -8,6 +8,9 @@
   "files": [
     "*.js"
   ],
+  "scripts": {
+    "test": "jest"
+  },
   "main": "cli.js",
   "author": "bitSeaChan",
   "license": "MIT",
